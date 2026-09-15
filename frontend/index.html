@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | MediTrack Patient Records</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <div class="brand-mark">🩺</div>
+    <h1>Welcome back</h1>
+    <p class="subtitle">Log in to manage patient records</p>
+
+    <div id="alertBox" class="alert"></div>
+
+    <form id="loginForm" novalidate>
+      <div class="field">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" autocomplete="username" required>
+        <small class="error" id="usernameError"></small>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" autocomplete="current-password" required>
+        <small class="error" id="passwordError"></small>
+      </div>
+
+      <button type="submit" class="btn" id="loginBtn">Log In</button>
+    </form>
+
+    <p class="auth-footer">Don't have an account? <a href="register.html">Register here</a></p>
+  </div>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
