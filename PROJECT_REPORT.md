@@ -125,6 +125,11 @@ erDiagram
 
 All endpoints above were manually verified end-to-end with `curl` before submission
 (register → login → create → list/filter → auth-protection check).
+### Test Evidence
+![Register - success](testing/register-success-test.png)
+![Login - success](testing/login-success-test.png)
+![Create patient - success](testing/create-patient-success-test.png)
+![List/filter patients](testing/list-filter-success-test.png)
 
 ## 11. Challenges & Solutions
 
